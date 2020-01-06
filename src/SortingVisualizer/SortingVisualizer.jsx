@@ -1,6 +1,9 @@
 import React from 'react';
 import './SortingVisualizer.css';
-import {getMergeSortAnimations} from '../sortingAlgorithm/sortingAlgorithm'
+import {getMergeSortAnimations} from '../sortingAlgorithm/MergeSortAlgo'
+import {getHeapSortAnimations} from '../sortingAlgorithm/HeapSortAlgo'
+import {getBubbleSortAnimations} from '../sortingAlgorithm/BubbleSortAlgo'
+import {getQuickSortAnimations} from '../sortingAlgorithm/QuickSortAlgo'
 
 const ANIMATION_SPEED_MS = 5;
 const NUMBER_OF_ARRAY_BARS = 25;
