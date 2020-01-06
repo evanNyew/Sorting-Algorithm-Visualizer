@@ -1,0 +1,14 @@
+.array-container{
+    margin: 50px 20px;
+    display: absolute;
+    flex-direction: column ;
+}
+
+.array-bar{
+    text-align: left;
+    color:whitesmoke;
+    height: 20px;
+    background-color: purple;
+    margin: 2px 5px;
+}
+
