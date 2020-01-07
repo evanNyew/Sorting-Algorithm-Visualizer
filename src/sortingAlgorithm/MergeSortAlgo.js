@@ -75,4 +75,3 @@ export function getMergeSortAnimations(array) {
       mainArray[k++] = auxiliaryArray[j++];
     }
   }
-  
