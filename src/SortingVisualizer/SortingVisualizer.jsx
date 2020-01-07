@@ -29,7 +29,6 @@ export default class SortingVisualizer extends React.Component {
         this.setState({ 
             array,
         });
-        this.stop()
     }
 
     mergeSort() {
